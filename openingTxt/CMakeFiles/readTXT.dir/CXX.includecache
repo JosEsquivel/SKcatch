@@ -6,9 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/jose/Documents/skycatch/openingTxt/readTXT.cpp
+/home/jose/Documents/SkCatch/SKcatch/openingTxt/readTXT.cpp
 iostream
 -
 fstream
+-
+typeinfo
+-
+string
 -
 
