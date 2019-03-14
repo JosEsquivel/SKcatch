@@ -1,0 +1,1 @@
+/usr/bin/c++      CMakeFiles/readTXT.dir/readTXT.cpp.o  -o readTXT -rdynamic 

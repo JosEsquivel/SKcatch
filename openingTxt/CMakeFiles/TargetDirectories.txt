@@ -1,0 +1,3 @@
+/home/jose/Documents/skycatch/openingTxt/CMakeFiles/edit_cache.dir
+/home/jose/Documents/skycatch/openingTxt/CMakeFiles/rebuild_cache.dir
+/home/jose/Documents/skycatch/openingTxt/CMakeFiles/readTXT.dir
