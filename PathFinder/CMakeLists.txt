@@ -5,7 +5,7 @@ project(pathFinder)
 
 include_directories(include)
 
-set(SOURCES src/main.cpp)
+set(SOURCES src/main.cpp src/aco.cpp)
 
 add_executable( findPath ${SOURCES})
 

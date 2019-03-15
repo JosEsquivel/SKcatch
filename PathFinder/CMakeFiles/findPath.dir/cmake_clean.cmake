@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/findPath.dir/src/main.cpp.o"
+  "CMakeFiles/findPath.dir/src/aco.cpp.o"
   "findPath.pdb"
   "findPath"
 )

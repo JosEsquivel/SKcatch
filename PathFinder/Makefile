@@ -123,6 +123,33 @@ findPath/fast:
 	$(MAKE) -f CMakeFiles/findPath.dir/build.make CMakeFiles/findPath.dir/build
 .PHONY : findPath/fast
 
+src/aco.o: src/aco.cpp.o
+
+.PHONY : src/aco.o
+
+# target to build an object file
+src/aco.cpp.o:
+	$(MAKE) -f CMakeFiles/findPath.dir/build.make CMakeFiles/findPath.dir/src/aco.cpp.o
+.PHONY : src/aco.cpp.o
+
+src/aco.i: src/aco.cpp.i
+
+.PHONY : src/aco.i
+
+# target to preprocess a source file
+src/aco.cpp.i:
+	$(MAKE) -f CMakeFiles/findPath.dir/build.make CMakeFiles/findPath.dir/src/aco.cpp.i
+.PHONY : src/aco.cpp.i
+
+src/aco.s: src/aco.cpp.s
+
+.PHONY : src/aco.s
+
+# target to generate assembly for a file
+src/aco.cpp.s:
+	$(MAKE) -f CMakeFiles/findPath.dir/build.make CMakeFiles/findPath.dir/src/aco.cpp.s
+.PHONY : src/aco.cpp.s
+
 src/main.o: src/main.cpp.o
 
 .PHONY : src/main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... findPath"
+	@echo "... src/aco.o"
+	@echo "... src/aco.i"
+	@echo "... src/aco.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

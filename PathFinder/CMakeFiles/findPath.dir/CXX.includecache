@@ -6,7 +6,23 @@
 
 #IncludeRegexTransform: 
 
+/home/jose/Documents/skycatch/PathFinder/src/aco.cpp
+aco.h
+/home/jose/Documents/skycatch/PathFinder/src/aco.h
+
 /home/jose/Documents/skycatch/PathFinder/src/main.cpp
+iostream
+-
+fstream
+-
+typeinfo
+-
+string
+-
+aco.h
+/home/jose/Documents/skycatch/PathFinder/src/aco.h
+
+include/aco.h
 iostream
 -
 fstream

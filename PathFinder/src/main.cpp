@@ -2,6 +2,7 @@
 #include <fstream>
 #include <typeinfo>
 #include <string> 
+#include "aco.h"
 using namespace std;
 
 int main(int argc, char* argv[]) {
@@ -73,7 +74,8 @@ int main(int argc, char* argv[]) {
     int yTarget = stoi(Yb);
     cout<<"Xb "<<xTarget<<" "<<"Yb "<<yTarget<<endl;
 
-
+    ACO test;
+    test.Message();
   }
 
 
